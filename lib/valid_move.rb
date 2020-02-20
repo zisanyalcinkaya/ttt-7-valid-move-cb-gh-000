@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(int)
+def valid_move?(board,int)
   if int<10 && int>0
     return true
   else
