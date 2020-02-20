@@ -1,8 +1,8 @@
 # code your #valid_move? method here
 def valid_move?(board,int)
-  if int>9 && int<0
+  if int>9 || int<0
     return false
-  else
+  elsif 
     return true
   end
 end
