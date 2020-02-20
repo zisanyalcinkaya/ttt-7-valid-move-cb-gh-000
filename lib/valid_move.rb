@@ -4,7 +4,7 @@ def valid_move?(board,int)
     return false
   elsif int<10 || int>1
     return true
-  else 
+  else
     return nil
   end
 end
