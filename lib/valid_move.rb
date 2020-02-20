@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(board,int)
-  if int>9 || int<0
+  if int>9 || int<0 || board[int] == "X" || board[int] == "O"
     return false
   else
     return true
