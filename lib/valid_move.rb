@@ -9,9 +9,9 @@ end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(board,int)
-  if(valid_move? == true && (board[int]!= "X" ||board[int]!= "O") )
-    return true
-  else
+  if(valid_move? == false && (board[int]!= "X" ||board[int]!= "O") )
     return false
+  else
+    return true
   end
 end
