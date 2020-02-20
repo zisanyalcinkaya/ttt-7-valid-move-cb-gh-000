@@ -2,7 +2,7 @@
 def valid_move?(board,int)
   if int>9 || int<0
     return false
-  elsif 
+  elsif
     return true
   end
 end
